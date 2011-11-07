@@ -263,13 +263,15 @@ aside ul li:first-child {
 			box-shadow: 0 0 20px black;
 }
 #main > div {
-    position: relative;
-    z-index: 1;
+/*	position: relative;
+	z-index: 1;*/
 	padding-top: 85px;
 	padding-bottom: 180px;
 }
 /* ===========================*/
 #main article{
+	position: relative;
+	z-index: 1;
 	width:900px;
 	text-shadow:none;
 	margin: auto;

@@ -4,19 +4,18 @@
 $text-color: #46433A;
 $anchor-text-color: #CE534D;
 //$background-color: #F1EED9;
-$background-color: #777777;
+$background-color: #dcdcdc;
 
 body {
 	font-family: 'Vollkorn', serif;
 	color: $text-color;
-	//background-color: $background-color;
-	background-color: #777777;
-	background-image: -webkit-gradient(linear, right top, left top, color-stop(0.5, transparent), color-stop(0.5, rgba(255,255,255, 0.2)));
-	background-image: -webkit-linear-gradient(right center, transparent 50%, rgba(255,255,255, 0.2) 50%); /* Chrome 10+, Saf5.1+ */
-	background-image:    -moz-linear-gradient(right center, transparent 50%, rgba(255,255,255, 0.2) 50%); /* FF 3.6 */
-	background-image:     -ms-linear-gradient(right center, transparent 50%, rgba(255,255,255, 0.2) 50%); /* IE10 */
-	background-image:      -o-linear-gradient(right center, transparent 50%, rgba(255,255,255, 0.2) 50%); /* Opera 11.10+ */
-	background-image:         linear-gradient(right center, transparent 50%, rgba(255,255,255, 0.2) 50%);
+	background-color: $background-color;
+	background-image: -webkit-gradient(linear, right top, left top, color-stop(0.5, transparent), color-stop(0.5, rgba(220,220,220, 0.2)));
+	background-image: -webkit-linear-gradient(right center, transparent 50%, rgba(220,220,220, 0.2) 50%); /* Chrome 10+, Saf5.1+ */
+	background-image:    -moz-linear-gradient(right center, transparent 50%, rgba(220,220,220, 0.2) 50%); /* FF 3.6 */
+	background-image:     -ms-linear-gradient(right center, transparent 50%, rgba(220,220,220, 0.2) 50%); /* IE10 */
+	background-image:      -o-linear-gradient(right center, transparent 50%, rgba(220,220,220, 0.2) 50%); /* Opera 11.10+ */
+	background-image:         linear-gradient(right center, transparent 50%, rgba(220,220,220, 0.2) 50%);
 	-webkit-background-size: 50px; /* Saf3-4 */
 	-moz-background-size: 50px; /* FF3.6 */
 	background-size: 50px; /* Opera, IE9, Saf5, Chrome, FF4 */

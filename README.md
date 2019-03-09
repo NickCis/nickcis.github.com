@@ -1,3 +1,1 @@
-# My personal page
-
-It uses [Compas Jekyll theme](https://github.com/excentris/compass)
+[https://nckweb.com.ar](https://nckweb.com.ar)
